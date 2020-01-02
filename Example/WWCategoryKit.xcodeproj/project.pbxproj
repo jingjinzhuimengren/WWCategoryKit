@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DB638766BF48BDCC19639B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4441F27D8FDCD5739AFCEE9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3DB638766BF48BDCC19639B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4441F27D8FDCD5739AFCEE9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4487102284E260478D795E4C /* Pods_WWCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69116AE94FA36F7C6B8DAE /* Pods-WWCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWCategoryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-WWCategoryKit_Example/Pods-WWCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WWCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		9095B087B7E9F7A4C99F5C10 /* Pods-WWCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWCategoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WWCategoryKit_Example/Pods-WWCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C50E543B615F5321BEE5914 /* Pods-WWCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWCategoryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WWCategoryKit_Tests/Pods-WWCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D37BABA839403CC84F7B409C /* Pods-WWCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWCategoryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WWCategoryKit_Tests/Pods-WWCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4C16B97EADCE3329317C085 /* WWCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WWCategoryKit.podspec; path = ../WWCategoryKit.podspec; sourceTree = "<group>"; };
+		F4C16B97EADCE3329317C085 /* WWCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WWCategoryKit.podspec; path = ../WWCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D37BABA839403CC84F7B409C /* Pods-WWCategoryKit_Tests.debug.xcconfig */,
 				9C50E543B615F5321BEE5914 /* Pods-WWCategoryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - WWCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - WWCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  WWCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWCategoryKit: 3e55b8072229c8cc099a8147f2abbdc5abc6b7ce
+
+PODFILE CHECKSUM: 06885b4a351f5c13c3dccf2b43e7dcc1535b6243
+
+COCOAPODS: 1.8.4
