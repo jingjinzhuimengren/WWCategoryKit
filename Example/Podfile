@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WWCategoryKit_Example' do
+  pod 'WWCategoryKit', :path => '../'
+
+  target 'WWCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
